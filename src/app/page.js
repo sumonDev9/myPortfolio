@@ -1,7 +1,9 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import PortfolioClientScripts from "@/components/PortfolioClientScripts";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
         </div>
         <About/>
         <Projects/>
+        <Skills/>
+        <PortfolioClientScripts/>
     </div>
     </>
   );
