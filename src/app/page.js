@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PortfolioClientScripts from "@/components/PortfolioClientScripts";
@@ -16,7 +17,9 @@ export default function Home() {
         <About/>
         <Projects/>
         <Skills/>
+        <Experience/>
         <PortfolioClientScripts/>
+
     </div>
     </>
   );
